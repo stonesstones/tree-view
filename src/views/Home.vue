@@ -1,7 +1,11 @@
 <template>
-  <leaf
-  @
-  />
+  <div>
+    <leaf
+        @send="getId"
+    />
+    <p>{{msg}}</p>
+  </div>
+
 </template>
 
 <script>
@@ -12,6 +16,17 @@
 
     components: {
       leaf,
+    },
+    data(){
+      return{
+        msg: "",
+      }
+    },
+    methods:{
+      getId: function(value){
+        this.msg=value;
+        alert(value)
+      }
     },
   }
 </script>
