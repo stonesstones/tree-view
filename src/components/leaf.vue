@@ -47,24 +47,28 @@ export default {
       tree: [],
       items: [
         {
-          name: 'public',
+          name: '5gatu13niti',
           file: false,
           children: [
             {
-              name: 'static',
+              name: 'simo',
               file: false,
               children: [{
-                name: 'logo.png',
+                name: 'happy birthday',
                 file: true,
               }],
             },
             {
-              name: 'favicon.ico',
+              name: '(^-^)',
               file: true,
             },
             {
-              name: 'index.html',
-              file: true,
+              name: '!!!!!',
+              file: false,
+              children:[{
+                name: "happy birthday",
+                file: true,
+              }]
             },
           ],
         },
